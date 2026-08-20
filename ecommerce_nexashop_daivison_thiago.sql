@@ -108,4 +108,18 @@ SELECT
     COUNT(*) AS total_clientes         
 FROM clientes
 GROUP BY perfil_relacionamento        
-ORDER BY total_clientes DESC;           
+ORDER BY total_clientes DESC; 
+
+-- Bloco 6 (exemplo)       
+
+SELECT
+  c.cidade,
+  SUM(p.valor_total) AS faturamento
+FROM clientes c
+JOIN pedidos p
+  ON c.id = p.cliente_id
+WHERE p.status = 'Aprovado'
+GROUP BY c.cidade
+ORDER BY faturamento DESC
+LIMIT 5;
+   
