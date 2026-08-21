@@ -6,8 +6,8 @@ O projeto utiliza o banco de dados fictício **NexaShop**, um e-commerce de elet
 
 ## 👥 Integrantes
 
-* **Nome do Integrante 1**
-* **Nome do Integrante 2**
+* **Daivison de Oliveira**
+* **Thiago Soethe**
 
 ## 🗄️ Banco de Dados
 
