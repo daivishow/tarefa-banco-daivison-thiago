@@ -39,21 +39,19 @@ Durante a atividade foram utilizadas consultas com:
 * CASE
 * TIMESTAMPDIFF
 
-As consultas foram desenvolvidas **sem JOIN ou subconsultas**, conforme solicitado na atividade.
-
 ## 📁 Estrutura do projeto
 
 ```text
 /
 ├── README.md
-├── consultas_nexashop.sql
-├── prints/
+├── ecommerce_nexashop_daivison_thiago
+├── Prints-daivison-thiago/
 │   ├── 1.1.png
 │   ├── 1.2.png
 │   ├── 2.3.png
 │   └── ...
-└── Docs/
-    └── relatorio_nexashop.pdf
+└── Docs-daivison-thiago/
+    └── Relatório - NexaShop (Daivison e Thiago).pdf
 ```
 
 ## 🎯 Objetivo
